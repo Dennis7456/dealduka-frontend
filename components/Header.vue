@@ -1,5 +1,11 @@
 <template>
-<div>Header</div>
+<div class="container">
+    Header
+    </div>
 </template>
 <script></script>
-<style scoped></style>
+<style scoped>
+div .container {
+    color: #181997;
+} 
+</style>

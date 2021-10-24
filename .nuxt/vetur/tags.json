@@ -10,8 +10,5 @@
   },
   "NavBar": {
     "description": "Auto imported from components/NavBar.vue"
-  },
-  "Tutorial": {
-    "description": "Auto imported from components/Tutorial.vue"
   }
 }

@@ -10,4 +10,3 @@ You can directly use them in pages and other components without the need to impo
 - `<Header>` | `<header>` (components/Header.vue)
 - `<Logo>` | `<logo>` (components/Logo.vue)
 - `<NavBar>` | `<nav-bar>` (components/NavBar.vue)
-- `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)
