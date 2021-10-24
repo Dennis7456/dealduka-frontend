@@ -1,0 +1,16 @@
+[
+  {
+    "name": "layouts-default",
+    "path": "/layouts/default",
+    "component": "/Users/des/Documents/dealduka-frontend/pages/layouts/default.vue",
+    "chunkName": "pages/layouts/default",
+    "_name": "_2dceeade"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/des/Documents/dealduka-frontend/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_b2d9beb0"
+  }
+]
