@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'dealduka',
+    title: 'Dealduka',
     htmlAttrs: {
       lang: 'en'
     },
@@ -15,6 +15,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
       { rel: 'icon', type: 'image/x-icon', href: '/media/favicons/favicomatic/favicon.ico' },
       { rel: "apple-touch-icon-precomposed", sizes: "57x57", href: "/media/favicomaticwhitebg/favicomatic/apple-touch-icon-57x57.png" },
       { rel: "apple-touch-icon-precomposed", sizes: "114x114", href: "/media/favicomaticwhitebg/favicomatic/apple-touch-icon-114x114.png" },
@@ -46,6 +47,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+  '@plugins/vuetify'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -53,7 +55,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-  ],
+    ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
