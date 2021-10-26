@@ -23,16 +23,20 @@ call
         </v-system-bar>
     </div>
     <div class="toolbar">
-        <v-container grid-list-md text-xs-center>
-            <v-layout row wrap>
-                <v-flex v-for="i in 3" :key="`4${i}`" xs4>
-                    <v-card dark color="red">
-                        <Logo />
-                        <v-card-text class="px-0">4</v-card-text>
-                    </v-card>
-                </v-flex>
-            </v-layout>
-        </v-container>
+    <v-row  justify="center">
+      <v-col cols="12" md="4">
+        <v-spacer></v-spacer>
+        <v-img src="../media/logo/logo256-web.png" aspect-ratio="1" max-height="150" max-width="150" class="logo "></v-img>
+    </v-col>
+      <v-col cols="12" md="4" >
+        <div class="search-area primary">
+        <v-text-field outlined class="rounded-pill ">
+            <v-icon slot="prepend">mdi-magnify</v-icon>
+        </v-text-field>
+    </div>
+    </v-col>
+      <v-col cols="12" md="4"><v-card>One of three columns</v-card></v-col>
+    </v-row>
     </div>
     </v-app>
 </template>
@@ -54,5 +58,14 @@ export default {
     width: 150px;
     margin-top: 100px;
     margin-left: 50px;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.search-area {
+    border-radius: 100px !important;
+    width: 500px;
 }
 </style>
