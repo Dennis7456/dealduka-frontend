@@ -1,5 +1,4 @@
 export { default as Footer } from '../../components/Footer.vue'
-export { default as Header } from '../../components/Header.vue'
 export { default as Logo } from '../../components/Logo.vue'
 export { default as NavBar } from '../../components/NavBar.vue'
 
