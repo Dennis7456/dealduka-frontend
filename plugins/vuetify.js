@@ -26,3 +26,4 @@ export default ctx => {
   ctx.app.vuetify = vuetify
   ctx.$vuetify = vuetify.framework
 }
+
