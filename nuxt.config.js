@@ -1,6 +1,6 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  ssr: true,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -37,6 +37,9 @@ export default {
       { name: "msapplication-square150x150logo", content: "mstile-150x150.png" },
       { name: "msapplication-wide310x150logo", content: "mstile-310x150.png" },
       { name: "msapplication-square310x310logo", content: "mstile-310x310.png" }
+    ],
+     noscript: [
+      { innerHTML: "We're sorry but bonik-vuetify doesn't work properly without JavaScript enabled. Please enable it to continue." }
     ]
   },
 
@@ -48,7 +51,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '@/plugins/antd-ui'
+    '@/plugins/antd-ui', '@/plugins/vuetify'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -77,5 +80,6 @@ export default {
         },
       },
     },
-  }
+  },
+  vendor: ['vuetify']
 }

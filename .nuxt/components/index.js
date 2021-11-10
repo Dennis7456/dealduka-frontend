@@ -1,3 +1,4 @@
+export { default as Content } from '../../components/Content.vue'
 export { default as Drawer } from '../../components/Drawer.vue'
 export { default as Footer } from '../../components/Footer.vue'
 export { default as Logo } from '../../components/Logo.vue'
