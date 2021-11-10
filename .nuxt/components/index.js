@@ -1,8 +1,8 @@
-export { default as Content } from '../../components/Content.vue'
 export { default as Drawer } from '../../components/Drawer.vue'
 export { default as Footer } from '../../components/Footer.vue'
 export { default as Logo } from '../../components/Logo.vue'
 export { default as NavBar } from '../../components/NavBar.vue'
+export { default as Toolbar } from '../../components/Toolbar.vue'
 export { default as Topbar } from '../../components/Topbar.vue'
 
 // nuxt/nuxt.js#8607

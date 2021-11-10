@@ -6,9 +6,9 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
-- `<Content>` | `<content>` (components/Content.vue)
 - `<Drawer>` | `<drawer>` (components/Drawer.vue)
 - `<Footer>` | `<footer>` (components/Footer.vue)
 - `<Logo>` | `<logo>` (components/Logo.vue)
 - `<NavBar>` | `<nav-bar>` (components/NavBar.vue)
+- `<Toolbar>` | `<toolbar>` (components/Toolbar.vue)
 - `<Topbar>` | `<topbar>` (components/Topbar.vue)

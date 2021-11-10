@@ -1,9 +1,17 @@
 <template>
-  <div>
-    Home
+  <div class="content">
+    Main Content
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+
+}
 </script>
+<style scoped>
+.content {
+  color: grey;
+
+}
+</style>

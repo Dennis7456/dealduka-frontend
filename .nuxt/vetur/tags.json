@@ -1,7 +1,4 @@
 {
-  "Content": {
-    "description": "Auto imported from components/Content.vue"
-  },
   "Drawer": {
     "description": "Auto imported from components/Drawer.vue"
   },
@@ -13,6 +10,9 @@
   },
   "NavBar": {
     "description": "Auto imported from components/NavBar.vue"
+  },
+  "Toolbar": {
+    "description": "Auto imported from components/Toolbar.vue"
   },
   "Topbar": {
     "description": "Auto imported from components/Topbar.vue"

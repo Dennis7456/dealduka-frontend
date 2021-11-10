@@ -1,5 +1,15 @@
 <template>
-<div>Footer</div>
+	<a-layout-footer class="footer">
+        Deal Duka | Web Mastaz ©2021
+      </a-layout-footer>
 </template>
-<script></script>
-<style scoped></style>
+<script>
+	export default {
+		name: 'Footer'
+	}
+</script>
+<style scoped>
+.footer {
+	color: grey;
+}
+</style>

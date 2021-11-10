@@ -15,7 +15,6 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 import nuxt_plugin_plugin_2d14bc77 from 'nuxt_plugin_plugin_2d14bc77' // Source: ./components/plugin.js (mode: 'all')
 import nuxt_plugin_axios_5466bbe6 from 'nuxt_plugin_axios_5466bbe6' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_antdui_2b2dca90 from 'nuxt_plugin_antdui_2b2dca90' // Source: ../plugins/antd-ui (mode: 'all')
-import nuxt_plugin_vuetify_e5914fcc from 'nuxt_plugin_vuetify_e5914fcc' // Source: ../plugins/vuetify (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -189,10 +188,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_antdui_2b2dca90 === 'function') {
     await nuxt_plugin_antdui_2b2dca90(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_vuetify_e5914fcc === 'function') {
-    await nuxt_plugin_vuetify_e5914fcc(app.context, inject)
   }
 
   // Lock enablePreview in context
