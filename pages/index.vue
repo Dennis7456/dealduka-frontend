@@ -1,12 +1,8 @@
 <template>
-<div>
-  This is the main page.
-</div>
+  <div>
+  </div>
 </template>
 
 <script>
 export default {}
 </script>
-
-<style scoped>
-</style>

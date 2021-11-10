@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-2",
+  "name": "deal-duka",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,13 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "ant-design-vue": "^1.7.6",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "less": "^4.1.2",
+    "less-loader": "^7.3.0"
+  }
 }

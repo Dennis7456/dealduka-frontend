@@ -1,6 +1,8 @@
+export { default as Drawer } from '../../components/Drawer.vue'
 export { default as Footer } from '../../components/Footer.vue'
 export { default as Logo } from '../../components/Logo.vue'
 export { default as NavBar } from '../../components/NavBar.vue'
+export { default as Topbar } from '../../components/Topbar.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
